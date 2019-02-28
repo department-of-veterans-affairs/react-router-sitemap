@@ -99,6 +99,7 @@ Convert array of paths to sitemap.
 -   `hostname` **[String](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The root name of your site.
 -   `$1` **[Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)**  (optional, default `{}`)
     -   `$1.limitCountPaths`   (optional, default `49999`)
+    -   `$1.lastMod` **[Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) or string that can be evaluated as a date**   (optional) adds `<lastmod>` tag to all of the paths set to the date value passed
 
 ## save
 
