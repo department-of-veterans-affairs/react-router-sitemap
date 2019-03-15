@@ -21,7 +21,7 @@
     "example": "cd example && node ./sitemap-builder.js",
     "documentation": "documentation build ./lib ./lib/routes-creater ./lib/routes-parser ./lib/paths-filter ./lib/params-applier ./lib/sitemap-builder -f md > api.md",
     "prepublish": "npm run build",
-    "postinstall": "npm run build"
+    "postinstall": "webpack --config ./config/build.config.js"
   },
   "author": "Igor Uvarov <kuflash@ya.ru> (http://kuflash.ru)",
   "license": "MIT",
