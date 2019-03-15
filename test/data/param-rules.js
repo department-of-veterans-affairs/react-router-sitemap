@@ -14,4 +14,8 @@ export default {
 		{ subParam: [1, 2], subSubParam: ['a', 'b'] },
 	],
 
+	'/path-four/:optionalSubParam?': [
+		{ 'optionalSubParam?': 1 },
+	],
+
 };

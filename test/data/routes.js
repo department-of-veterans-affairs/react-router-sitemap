@@ -17,4 +17,10 @@ export default [
 			},
 		],
 	},
+	{
+		path: '/path-four',
+		childRoutes: [
+			{ path: ':optionalSubParam?' },
+		],
+	},
 ];
