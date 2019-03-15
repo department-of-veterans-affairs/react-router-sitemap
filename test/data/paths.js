@@ -5,6 +5,8 @@ const pathsWithParams = [
 	'/path-three',
 	'/path-three/sub-path-three/:subParam',
 	'/path-three/sub-path-three/:subParam/:subSubParam',
+	'/path-four',
+	'/path-four/:optionalSubParam?',
 ];
 
 const paths = [
@@ -21,6 +23,9 @@ const paths = [
 	'/path-three/sub-path-three/1/b',
 	'/path-three/sub-path-three/2/a',
 	'/path-three/sub-path-three/2/b',
+	'/path-four',
+	'/path-four',
+	'/path-four/1',
 ];
 
 export { paths, pathsWithParams };
